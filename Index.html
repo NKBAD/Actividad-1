@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ayuda a un peludo</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  text-align: left;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: center;
+  width: 30%;
+  height: 30px; /* only for demonstration, should be removed */
+  background: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #ffffff;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<center><h2>ONG-Ayuda a un peludo</h2></center>
+<p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤAyuda a un peludo es una organización sin fines de lucro, compuesta por un equipo multidisciplinario de profesionales, tales como médicos veterinarios y abogados, todos versados en el manejo y cuidado animal.</p>
+<p>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤdale una familia a estos animales, ¡lo necesitan!</p>
+
+<header>
+  <h5>Nuestros integrantes:</h5>
+</header>
+
+<section>
+ <article>
+    <p>-Medicos veterinarios</p>
+    <p>-abogados</p>
+    <p>-voluntarios que ayudan con el cuidado de los animales en todo sentido</p>
+  </article>
+</section>
+
+<nav>
+  <ul>
+  </ul>
+</nav>
+
+<footer>
+<p><h2>En adopción:</h2></p>
+  <p>ㅤㅤ</p>
+  <li><a href="Gatos.html">gatos</a>
+  <center><img src="gatos.jpg" alt="Gatos" width="200" height="200"></center> 
+</li>
+  <p>ㅤㅤ</p>
+  <p>ㅤㅤ</p>
+  <p>ㅤㅤ</p>
+
+  <li><a href="perros.html">Perros</a>
+    <center><img src="perros.jpg" alt="Gatos" width="200" height="200"></center> 
+</li>
+</footer>
+
+</body>
+</html>
